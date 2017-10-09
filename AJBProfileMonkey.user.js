@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        AJB Profile Monkey
 // @namespace   https://github.com/Alliex/greasemonkeyscripts
-// @description To clean up and reorganize some of the beeradvocate data
+// @description Adding meta info collected at https://ajb.karantor.com (h/t Karantor)
 // @include     https://*.abandonedjerks.com/*
 // @version     .1
 // @grant       none
