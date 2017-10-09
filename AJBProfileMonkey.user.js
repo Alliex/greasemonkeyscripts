@@ -18,3 +18,4 @@ for (i=0; i<spans.length; i++) {
     spans[i].innerHTML = nametx+'1';
     spans[i].wholeText += nametx2+'2';
 }
+console.log('Test');
