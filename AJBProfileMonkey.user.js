@@ -23,5 +23,7 @@ GM_xmlhttpRequest({
   url: "https://ajb.karantor.com/profiles/details/Aaku/",
   onload: function(response) {
     alert(response.responseText);
+    console.log(response.responseText);
+    GM_log(response.responseText);
   }
 });
