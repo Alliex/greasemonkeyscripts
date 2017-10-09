@@ -24,6 +24,6 @@ GM_xmlhttpRequest({
   onload: function(response) {
     alert(response.responseText);
     console.log(response.responseText);
-    GM_log(response.responseText);
+    GM_log([response.responseText,responseXML].join("\n"));
   }
 });
