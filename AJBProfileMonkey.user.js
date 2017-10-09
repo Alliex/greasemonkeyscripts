@@ -12,9 +12,9 @@ var spans = document.getElementsByTagName('span');
 
 for (i=0; i<spans.length; i++) {
     if(spans[i].getAttribute('itemprop') == 'name') {
-        nametx = spans[i].innerhtml;
-        nametx2 = spans[i].wholetext;
+        nametx = spans[i].innerHTML;
+        nametx2 = spans[i].wholeText;
     }
-    spans[i].innerhtml = nametx+'1';
-    spans[i].wholetext = nametx2+'2';
+    spans[i].innerHTML = nametx+'1';
+    spans[i].wholeText += nametx2+'2';
 }
