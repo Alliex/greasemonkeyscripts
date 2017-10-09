@@ -11,11 +11,8 @@ console.log('This script grants no special privileges, so it runs without securi
 var spans = document.getElementsByTagName('span');
 
 for (i=0; i<spans.length; i++) {
-    if(spans[i].getAttribute('itemprop') == 'name') {
-        nametx = spans[i].innerHTML;
-        nametx2 = spans[i].wholeText;
+    if(spans[i].getAttribute('itemprop') =='name') {
+        spans[i].innerHTML += '1';
+        spans[i].wholeText += '2';
     }
-    spans[i].innerHTML = nametx+'1';
-    spans[i].wholeText += nametx2+'2';
 }
-console.log('Test');
