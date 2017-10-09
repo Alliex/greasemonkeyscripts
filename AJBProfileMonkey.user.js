@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        AJB Profile Monkey
-// @namespace   http://userscripts.org/users/438563
+// @namespace   https://github.com/Alliex/greasemonkeyscripts
 // @include     https://*.abandonedjerks.com
 // @version     1
 // @grant       none
