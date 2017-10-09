@@ -4,7 +4,7 @@
 // @description Adding meta info collected at https://ajb.karantor.com (h/t Karantor)
 // @include     https://abandonedjerks.com/topic/*
 // @include     https://ajb.karantor.com/*
-// @version     .2
+// @version     0.3
 // @grant       none
 // ==/UserScript==
 console.log('This script grants no special privileges, so it runs without security limitations.');
