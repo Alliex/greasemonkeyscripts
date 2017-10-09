@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name           Beeradvocate Beer Goggles
-// @namespace      http://userscripts.org/users/438563
+// @namespace      https://github.com/Alliex/greasemonkeyscripts
 // @description    To clean up and reorganize some of the beeradvocate data
 // @include        http://*.beeradvocate.com/*
-// @grant       none
+// @version        .7
+// @grant          none
 // ==/UserScript==
 console.log('This script grants no special privileges, so it runs without security limitations.');
 
