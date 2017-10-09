@@ -3,7 +3,7 @@
 // @namespace   https://github.com/Alliex/greasemonkeyscripts
 // @description Adding meta info collected at https://ajb.karantor.com (h/t Karantor)
 // @include     https://abandonedjerks.com/topic/*
-// @version     .1
+// @version     .2
 // @grant       none
 // ==/UserScript==
 console.log('This script grants no special privileges, so it runs without security limitations.');
